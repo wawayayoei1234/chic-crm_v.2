@@ -8,10 +8,9 @@ function Index() {
   const [otp, setOtp] = useState('');
   return (
   
-      <Box sx={{background:"linear-gradient( #84BAA1, #FFFBE2 )",height:"100vh",width:'100%'}}>
-        <Box p={10} sx={{display:'flex',flexDirection:'column', background: 'white',
-        borderRadius: 10,justifyContent:'center',alignItems:'center',position:'absolute',top:'50%',left:'50%',
-        transform: 'translate(-50%, -50%)'}}> 
+      <Box sx={{background:"linear-gradient(110deg, #84BAA1, #FFFBE2 100%)",height:"100vh",width:'100%'}}>
+        <Box p={4} sx={{display:'flex',flexDirection:'column', background: 'white',
+      borderRadius: 10,justifyContent:'center',alignItems:'center',position:'absolute',top:'50%',left:'50%',transform: 'translate(-50%, -50%)'}}> 
           <Box sx={{ color: '#171717', fontSize: 25, fontFamily: 'Avenir', fontWeight: '800', 
           wordWrap: 'break-word',}}>Enter Company E-mail</Box>
           <Box pb={3} sx={{color: '#7F8391', fontSize: 15, fontFamily: 'Avenir', fontWeight: '0', 
