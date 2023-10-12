@@ -39,7 +39,6 @@ fetch("http://192.168.5.71:8080/api/change-password", requestOptions)
         <Button variant='contained' onClick={update}> 
             update</Button>
         </Box>
-
     </div>
   )
 }

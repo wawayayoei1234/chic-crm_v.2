@@ -25,7 +25,6 @@ function Index() {
         transform: 'translate(-50%, -50%)'}}> 
         <Box sx={{ textAlign: 'center' }}>
         <span style={{ color: 'black', fontSize: 30, fontFamily: 'Avenir', fontWeight: 500, wordWrap: 'break-word' }}>Welcome to </span>
-        
         <span style={{ color: '#52752F', fontSize: 30, fontFamily: 'Avenir', fontWeight: 1000, wordWrap: 'break-word' }}>ChicCRM</span>
     </Box>
           <Box pt={3} ><Image alt="Iconview" src={logocmpany} width={100} height={'auto'}></Image></Box>

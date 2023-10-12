@@ -7,7 +7,6 @@ import logocmpany from '../../data/images/image 8.png'
 function Index() {
   const [otp, setOtp] = useState('');
   return (
-  
       <Box sx={{background:"linear-gradient(110deg, #84BAA1, #FFFBE2 100%)",height:"100vh",width:'100%'}}>
         <Box p={4} sx={{display:'flex',flexDirection:'column', background: 'white',
       borderRadius: 10,justifyContent:'center',alignItems:'center',position:'absolute',top:'50%',left:'50%',transform: 'translate(-50%, -50%)'}}> 

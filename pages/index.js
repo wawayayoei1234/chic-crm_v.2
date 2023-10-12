@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import Iconview from '../data/images/Hide.png'
 import Image from 'next/image';
-import {themedata} from '../data/themedata'
 
 function index() {
   const [data, setdata] = useState({username:'',password:''})
@@ -38,7 +37,7 @@ function index() {
 }
   return (
     <Box sx={{background:"linear-gradient(110deg, #84BAA1, #FFFBE2 100%)",height:"100vh",width:'100%'}}>  
-      <Box p={4} sx={{display:'flex',flexDirection:'column', background: 'white',
+      <Box p={5} sx={{display:'flex',flexDirection:'column', background: 'white',width:'200',height:'auto',
       borderRadius: 10,justifyContent:'center',alignItems:'center',position:'absolute',top:'50%',left:'50%',transform: 'translate(-50%, -50%)'}}> 
         <Box>
         <Box sx={{ color: '#171717', fontSize: 20, fontFamily: 'Avenir', fontWeight: '800'}}>Login</Box> 
