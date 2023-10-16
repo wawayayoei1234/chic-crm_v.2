@@ -20,7 +20,6 @@ function Index() {
           width: '300px', height: 'auto',textTransform:'capitalize', fontFamily: 'Avenir',color:'#fff' }}>Next</Button>
         </Box>
       </Box>  
-  
   )
 }
 
